@@ -1,5 +1,24 @@
 # Airflow on KinD Cluster 
 
+## Install KinD (Kubernetes in Docker) 🪼
+On macOS via Homebrew
+```bash
+brew install kind
+```
+
+## Install Helm 📃
+On macOS via Homebrew
+```bash
+brew install helm
+```
+
+## Install K9s 🐶
+Moniter
+On macOS via Homebrew
+```bash
+brew install k9s
+```
+
 ## Create KinD Cluster 🐳 
 
 Run Scrept Create-Cluster.sh
