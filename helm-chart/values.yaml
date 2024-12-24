@@ -1,0 +1,4 @@
+images:
+  airflow:
+    repository: my-dags
+    tag: 0.0.1
