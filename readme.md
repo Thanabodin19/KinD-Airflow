@@ -63,6 +63,12 @@ Run Scrept Create-Cluster.sh
 >```bash
 >export TMPDIR=/home/s6410301026/temp
 
+### Forward port server to local
+```bash
+ssh -L localhost:<port>:localhost:<port> <server>
+```
+
+
 ## Delete AirFlow Helm Chart 📈
 ```bash
 ./helm-chart/delete-airflow.sh
