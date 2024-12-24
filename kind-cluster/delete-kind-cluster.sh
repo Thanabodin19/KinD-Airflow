@@ -10,7 +10,7 @@ NC='\033[0m' # ไม่มีสี (reset)
 # ตรวจสอบว่า kind ถูกติดตั้งแล้วหรือยัง
 if ! command -v kind &> /dev/null
 then
-    echo -e "${WARNING}\nKind ไม่ได้ถูกติดตั้ง กรุณาติดตั้งก่อน\n${NC}"
+    echo -e "${RED}\nError:Kind ไม่ได้ถูกติดตั้ง กรุณาติดตั้งก่อน\n${NC}"
     exit 1
 fi
 
